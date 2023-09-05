@@ -1,9 +1,9 @@
-/* This is where the default styles for your application can be defined */
-
 /* Set the base font and background color for the entire app */
 body {
   font-family: Arial, sans-serif;
   background-color: #f7fafc;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
 }
 
 /* Center align the content in the container */
@@ -13,6 +13,10 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+  margin: 0 auto; /* Center container horizontally */
+  max-width: 800px; /* Limit maximum width of the container */
+  padding: 1rem; /* Add some padding to the container */
+  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 /* Style the input and button for the YouTube URL */
@@ -21,11 +25,7 @@ input[type="text"] {
   border: 1px solid #ccc;
   border-radius: 4px;
   width: 100%;
-}
-
-/* Add some spacing between input and button */
-input[type="text"] + button {
-  margin-top: 0.5rem;
+  margin-bottom: 1rem; /* Add some space between input and button */
 }
 
 /* Style the "Download Thumbnails" button */
@@ -34,6 +34,7 @@ input[type="text"] + button {
   color: white;
   font-weight: bold;
   padding: 0.5rem 1rem;
+  border: none; /* Remove button border */
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.2s;
@@ -51,6 +52,7 @@ input[type="text"] + button {
   padding: 1rem;
   text-align: center;
   transition: box-shadow 0.2s;
+  margin-bottom: 1rem; /* Add space between thumbnail options */
 }
 
 .thumbnail-option:hover {
@@ -69,6 +71,7 @@ input[type="text"] + button {
   color: white;
   font-weight: bold;
   padding: 0.3rem 0.6rem;
+  border: none; /* Remove button border */
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.2s;
@@ -76,4 +79,12 @@ input[type="text"] + button {
 
 .thumbnail-option button:hover {
   background-color: #2680c5;
+}
+
+/* Style headings to start in one line without line break */
+h1, h2 {
+  text-align: left;
+  margin-left: 20px; /* Adjust the value as needed */
+  white-space: nowrap; /* Prevent line breaks */
+  word-wrap: break-word; /* Wrap long words instead of breaking lines */
 }
