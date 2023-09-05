@@ -36,9 +36,9 @@ const Index = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <header className="text-center mb-8" style={{ width: '62%' }}>
-      <h1 className="text-3xl font-bold mb-2">
-          Free Youtube Thumbnail Downloader
-        </h1>
+        <div className="circular-text">
+        </div>
+      <h1 className="text-3xl font-bold mb-2 ml-1">Free Youtube Thumbnail Downloader</h1>
         <p className="text-gray-600" style={{ width: '100%' }}>
           Elevate your YouTube channel to new heights with our effortless solution for accessing high-quality thumbnails in a range of resolutions. Our user-friendly application not only simplifies the process of thumbnail downloads but also offers you the opportunity to draw inspiration from the creative works of fellow content creators. It's the perfect tool to enhance and invigorate your own video content.
           <br />
