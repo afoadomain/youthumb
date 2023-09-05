@@ -5,7 +5,10 @@ import { DefaultSeo } from "next-seo";
 function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
-      
+      {/* Google AdSense code */}
+      <script
+        
+      ></script>
 
       <DefaultSeo
         title="YouTube Thumbnail Downloader"
