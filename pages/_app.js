@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         description="Save high-quality YouTube video thumbnails in various resolutions, including Full HD (1080p), HD (720p), and SD. Our YouTube Thumbnail Grabber supports multiple video formats, including HD, HQ, 1080p, and 4K videos. Learn how to use our YouTube Thumbnail Downloader to extract thumbnails from any video and ensure you respect copyright rules."
         canonical="https://wwww.feedka.com"
         openGraph={{
-          url: "https://wwww.feedka.com",
+          url: "https://wwww.feeka.com",
           title: "YouTube Thumbnail Downloader",
           description: "Save high-quality YouTube video thumbnails in various resolutions, including Full HD (1080p), HD (720p), and SD. Our YouTube Thumbnail Grabber supports multiple video formats, including HD, HQ, 1080p, and 4K videos. Learn how to use our YouTube Thumbnail Downloader to extract thumbnails from any video and ensure you respect copyright rules.",
           site_name: "YouTube Thumbnail Downloader",
